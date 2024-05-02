@@ -1,0 +1,23 @@
+{
+  "id": "4484426",
+  "name": "my lianxi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2380617",
+      "name": "笔记本",
+      "font_class": "bijiben",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "35882960",
+      "name": "爱心biubiu猪",
+      "font_class": "keaisuopingtubiao_aixinbiubiuzhu",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    }
+  ]
+}

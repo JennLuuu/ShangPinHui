@@ -1,0 +1,103 @@
+a {
+    color: #666;
+}
+.header {
+    
+}
+.header_top {
+    /* 暂定高度用于写页面,之后删掉 */
+    /* height: 30px; */
+
+    background-color: #ECECEC;
+    /* 清浮动 */
+    overflow: hidden;
+}
+.header_top_inner {
+    width: 1190px;
+    margin:0 auto;
+
+    overflow: hidden;
+}
+.header_top_left {
+    float: left;
+}
+.header_top_left p {
+    float: left;
+    margin: 7px 36px 7px 0px;
+}
+.header_top_left p:nth-child(1) {
+    font-size: 12px;
+    color: #666;
+    margin: 7px 36px 7px 0px;
+}
+.header_top_left p:nth-child(2) {
+    font-size: 12px;
+    color: #666;
+    margin-right: 32px;
+    font-weight: 700;
+}
+.header_top_left p:nth-child(3) {
+    font-size: 12px;
+    color: #666;
+    font-weight: 700;
+    position: relative;
+}
+.header_top_left p:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 1px;
+    background-color: #666;
+
+    top: 6px;
+    left: -16px;
+}
+.header_top_list {
+    font-size: 12px;
+    width: 656px;
+    float: right;
+    margin: 7px 0px 7px 0px;
+}
+.header_top_list li {
+    float: left;
+    position: relative;
+}
+.header_top_list li + li {
+    margin-left: 30px;
+
+}
+.header_top_list li + li:before {
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+
+    position: absolute;
+    top: 3px;
+    left: -15px;
+}
+
+.header_con {
+    /* 暂定高度辅助写页面,之后删掉 */
+    height: 198px;
+    border-bottom: 1px solid #DD302D;
+}
+.header_con_inner {
+    width: 1190px;
+    margin: 0 auto;
+}
+.logo_search {
+    display: flex;
+}
+.logo_search img {
+    width: 190px;
+    height: 120px;
+}
+.search {
+    display: flex;
+}
+.logo_search .search_img {
+    width: 80px;
+    height: 36px;
+    background-color: #DD302D;
+}
